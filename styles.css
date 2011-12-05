@@ -1,0 +1,135 @@
+@font-face { font-family: Cabin; src: url('Cabin-Bold-TTF.ttf'); }
+@font-face { font-family: Practique; src: url('Practique.ttf'); }
+
+html, body {
+  font-family: Practique;
+  background: transparent;
+  height: 100% !important;
+}
+/* strong {
+  background-color: yellow;
+} */
+#preso, .slide, .content {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+#preso {
+  -webkit-box-shadow: none;
+  -box-shadow: none;
+  display: table;
+}
+.slide {
+  display: table-row;
+}
+.content {
+  display: table-cell;
+  margin: 0 !important;
+  vertical-align: middle;
+}
+.content ul li {
+  margin-left: 0;
+}
+#footer {
+  display: none;
+}
+
+h1 {
+  font-size: 216px;
+  margin: 0 0 0.25em 0;
+}
+.bullets h1 {
+  font-size: 150px;
+}
+li {
+  font-size: 72px;
+  padding: 0 !important;
+  line-height: 150%;
+}
+p {
+  font-size: 72px;
+}
+.strike-through {
+  background: url(images/strike-through.png) no-repeat center;
+}
+.done {
+  background: url(images/done.png) no-repeat center;
+}
+
+.intro h1 {
+  font-size: 216px;
+}
+.intro p {
+  font-size: 72px;
+}
+
+.outline h1 {
+  font-size: 216px;
+}
+.outline ul {
+  position: relative;
+  margin: -4% 0% 0 22%;
+  padding: 0;
+  list-style-type: none;
+}
+.outline li {
+  width: 35%;
+  line-height: 180%;
+  margin: 1% 2%;
+  float: left;
+  font-size: 90px;
+  text-align: center;
+}
+.outline li:nth-child(1) {
+  background-color: #fcfc4c;
+}
+.outline li:nth-child(2) {
+  background-color: #a4fd4c;
+}
+.outline li:nth-child(3) {
+  background-color: #4cfdfd;
+}
+.outline li:nth-child(4) {
+  background-color: #fd4cdf;
+}
+.outline li:nth-child(5) {
+  background-color: #fd4c4c;
+}
+.outline li:nth-child(6) {
+  background-color: #fda44c;
+}
+
+.architecture img {
+  padding-left: 6%;
+}
+.love {
+  background: url(images/love.png) no-repeat 80% 4%;
+}
+.tweets img {
+  width: 75%;
+}
+
+.gosh li {
+  font-size: 36px;
+}
+.sponsors ul {
+  width: 600px;
+  margin: auto;
+}
+.sponsors li {
+  display: inline-block;
+  margin: 0 0 0 30px;
+}
+.sponsors img {
+  vertical-align: middle;
+  border: 1px solid #999;
+  height: 72px;
+  width: 170px;
+}
+.sponsors img:nth-child(2) {
+  border: 0;
+}
+
+.team img {
+  width: 10%;
+}
