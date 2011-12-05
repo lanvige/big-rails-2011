@@ -1,9 +1,9 @@
 {
-  "name": "Travis CI",
-  "description": "Distributed, Continous Integration for the Ruby community",
+  "author": "Lanvige Jiang",
+  "name": "The Big Rails",
+  "description": "How to use Rails 3 to build a large & scalable web",
   "sections": [
     { "section": "slides" }
-    /*{ "section": "slides_extra" }*/
   ]
 }
 

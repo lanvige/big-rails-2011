@@ -1,4 +1,4 @@
 !SLIDE intro center bullets
-# Travis CI
-Distributed, continuous integration<br/>for the opensource community
+# Big Rails 2011
+How to use Rails 3<br/>to build a large & scalable web
 
